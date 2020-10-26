@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/atlee19/Render-Blocking/issues"
   },
-  "homepage": "https://github.com/atlee19/Render-Blocking#readme"
+  "homepage": "https://github.com/atlee19/Render-Blocking#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
