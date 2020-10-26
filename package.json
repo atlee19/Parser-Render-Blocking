@@ -1,0 +1,19 @@
+{
+  "name": "render-blocking",
+  "version": "1.0.0",
+  "description": "Demonstrating render blocking caused by JS and CSS files in HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlee19/Render-Blocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atlee19/Render-Blocking/issues"
+  },
+  "homepage": "https://github.com/atlee19/Render-Blocking#readme"
+}
