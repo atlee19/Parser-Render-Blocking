@@ -10,7 +10,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/block/script', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/parser-blocking.html'))
+    res.sendFile(path.join(__dirname, 'public/script-blocking.html'))
+})
+
+app.get('/block/async', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/async-blocking.html'))
 })
 
 app.listen(port, () => {

@@ -32,8 +32,10 @@
 
     <h3>Loading our script here...</h3>
    
-    <script src="http://localhost:3000/parser-blocker.js"></script>
-    <!-- <script src="parser-blocker.js"></script> -->
+    <!-- will not halt parsing while script is downloading in background  -->
+    <!-- but once done downloading it will execute -->
+    <script async src="http://localhost:3000/external-script.js"></script>
+    
 
     <h2>⏰Hello 24</h2>
     <h2>⏰Hello 25</h2>
