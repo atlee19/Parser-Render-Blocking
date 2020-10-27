@@ -15,6 +15,11 @@
     <h2>⏰Hello 7</h2>
     <h2>⏰Hello 8</h2>
     <h2>⏰Hello 9</h2>
+
+    <!-- 330 byte script even though it comes first it will be executed last -->
+    <!-- NOT Executed in order. Whatever gets downloaded first -->
+    <script async src="http://localhost:3000/external-heavy.js"></script>
+
     <h2>⏰Hello 10</h2>
     <h2>⏰Hello 11</h2>
     <h2>⏰Hello 12</h2>
@@ -32,8 +37,9 @@
 
     <h3>Loading our script here...</h3>
    
-    <!-- will not halt parsing while script is downloading in background  -->
+    <!-- will not halt parsing while script (66 bytes) is downloading in background  -->
     <!-- but once done downloading it will execute -->
+
     <script async src="http://localhost:3000/external-script.js"></script>
     
 
