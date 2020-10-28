@@ -1,2 +1,2 @@
 # Render-Blocking
-Demonstrating render blocking caused by JS and CSS files in HTML.
+Demonstrating parser blocking that can caused by external js files as well as render blocking caused by external css files.
