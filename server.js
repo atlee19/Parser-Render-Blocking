@@ -17,6 +17,10 @@ app.get('/block/async', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/async-blocking.html'))
 })
 
+app.get('/block/defer', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/defer.html'))
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
